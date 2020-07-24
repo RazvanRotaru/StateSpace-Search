@@ -1,0 +1,402 @@
+for input: test1.in
+apply blind algorithms
+
+Uniform cost search
+0.0282480716705
+49
+8
+['pickup', 'south', 'south', 'dropoff']
+
+Depth-first searh
+0.0203318595886
+88
+6
+['west', 'east', 'pickup', 'south', 'south', 'dropoff']
+
+Depth-limited searh
+0.00883889198303
+43
+6
+['west', 'east', 'pickup', 'south', 'south', 'dropoff']
+
+Iterative deepening search
+0.0256938934326
+64
+8
+['pickup', 'south', 'south', 'dropoff']
+
+apply informat algorithms with simple_h
+
+Greedy best-first search
+0.0217599868774
+61
+6
+['south', 'north', 'pickup', 'south', 'south', 'dropoff']
+
+A* search
+0.0228979587555
+12
+8
+['pickup', 'south', 'south', 'dropoff']
+
+Hill-climbing search
+0.00781297683716
+6
+0
+['north', 'north', 'east', 'east', 'west']
+
+apply informat algorithms with h
+
+Greedy best-first search
+0.0419738292694
+18
+8
+['pickup', 'south', 'south', 'dropoff']
+
+A* search
+0.0791590213776
+27
+8
+['pickup', 'south', 'south', 'dropoff']
+
+Hill-climbing search
+0.0155930519104
+6
+0
+['south', 'south', 'west', 'east', 'west']
+
+for input: test2.in
+apply blind algorithms
+
+Uniform cost search
+0.421769142151
+361
+35
+['pickup', 'east', 'south', 'south', 'south', 'dropoff', 'north', 'pickup', 'north', 'west', 'west', 'east', 'west', 'west', 'south', 'south', 'dropoff']
+
+Depth-first searh
+0.037969827652
+94
+7
+['south', 'south', 'south', 'north', 'west', 'east', 'west', 'south', 'north', 'east', 'north', 'pickup', 'south', 'south', 'dropoff']
+
+Depth-limited searh
+0.0222268104553
+43
+26
+['north', 'south', 'pickup', 'west', 'north', 'west', 'east', 'south', 'east', 'west', 'south', 'east', 'east', 'south', 'south', 'dropoff']
+
+Iterative deepening search
+0.979872941971
+52
+24
+['north', 'pickup', 'east', 'south', 'south', 'south', 'south', 'dropoff', 'east']
+
+apply informat algorithms with simple_h
+
+Greedy best-first search
+0.351296901703
+110
+7
+['south', 'south', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'north', 'pickup', 'south', 'south', 'dropoff']
+
+A* search
+1.78049397469
+125
+25
+['pickup', 'east', 'south', 'south', 'south', 'dropoff', 'north', 'pickup', 'south', 'north', 'south', 'east', 'west', 'east', 'north', 'west', 'south', 'north']
+
+Hill-climbing search
+0.0904970169067
+16
+0
+['east', 'north', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'south']
+
+apply informat algorithms with h
+
+Greedy best-first search
+4.63795900345
+610
+33
+['pickup', 'north', 'east', 'south', 'south', 'south', 'south', 'dropoff', 'east']
+
+A* search
+6.22506189346
+395
+25
+['pickup', 'south', 'east', 'south', 'south', 'dropoff', 'north', 'north', 'west', 'pickup', 'south', 'south', 'north', 'south', 'north', 'south', 'north', 'south']
+
+Hill-climbing search
+0.111178159714
+7
+9
+['east', 'east', 'west', 'south', 'south', 'east']
+
+for input: test3.in
+apply blind algorithms
+
+Uniform cost search
+0.371120929718
+332
+36
+['pickup', 'east', 'south', 'south', 'south', 'dropoff', 'north', 'pickup', 'north', 'north', 'south', 'north', 'west', 'west', 'south', 'north', 'south', 'west', 'south', 'south', 'dropoff']
+
+Depth-first searh
+0.0369281768799
+63
+27
+['west', 'south', 'north', 'east', 'pickup', 'south', 'west', 'north', 'south', 'west', 'north', 'east', 'east', 'east', 'east', 'west', 'south', 'south', 'south', 'dropoff']
+
+Depth-limited searh
+0.0278730392456
+50
+8
+['west', 'south', 'east', 'pickup', 'north', 'east', 'north', 'east', 'south', 'north', 'south', 'north', 'south', 'west', 'south', 'west', 'south', 'south', 'dropoff']
+
+Iterative deepening search
+13.6874761581
+68
+32
+['pickup', 'east', 'north', 'east', 'west', 'south', 'west', 'north', 'south', 'south', 'east', 'south', 'south', 'dropoff', 'east']
+
+apply informat algorithms with simple_h
+
+Greedy best-first search
+0.411566972733
+120
+6
+['south', 'south', 'south', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'north', 'north', 'pickup', 'south', 'south', 'dropoff']
+
+A* search
+2.05957889557
+135
+25
+['pickup', 'east', 'south', 'south', 'south', 'dropoff', 'north', 'pickup', 'south', 'east', 'west', 'north', 'south', 'north', 'south', 'east', 'west', 'east', 'west', 'north', 'north', 'west', 'south']
+
+Hill-climbing search
+0.311852931976
+21
+0
+['east', 'north', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'south']
+
+apply informat algorithms with h
+
+Greedy best-first search
+5.10481500626
+632
+13
+['south', 'north', 'west', 'west', 'east', 'pickup', 'south', 'east', 'south', 'dropoff', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'south']
+
+A* search
+5.09963083267
+284
+38
+['pickup', 'east', 'south', 'south', 'south', 'dropoff', 'north', 'pickup', 'south', 'north', 'north', 'east', 'west', 'west', 'west', 'west', 'south', 'south', 'dropoff']
+
+Hill-climbing search
+0.268001079559
+11
+10
+['east', 'south', 'east', 'south', 'south', 'north', 'south', 'west', 'north', 'south']
+
+for input: test4.in
+apply blind algorithms
+
+Uniform cost search
+18.7765090466
+2791
+58
+['pickup', 'north', 'north', 'east', 'north', 'east', 'east', 'dropoff', 'pickup', 'east', 'north', 'dropoff', 'pickup', 'south', 'west', 'south', 'dropoff']
+
+Depth-first searh
+0.0373570919037
+62
+19
+['pickup', 'south', 'north', 'west', 'east', 'east', 'east', 'north', 'south', 'north', 'south', 'north', 'east', 'west', 'east', 'south', 'north', 'north', 'north', 'dropoff']
+
+Depth-limited searh
+0.0337688922882
+66
+28
+['north', 'north', 'east', 'north', 'north', 'west', 'west', 'north', 'east', 'west', 'south', 'east', 'east', 'pickup', 'south', 'east', 'south', 'south', 'dropoff']
+
+Iterative deepening search
+0.759088039398
+245
+27
+['west', 'north', 'north', 'north', 'pickup', 'east', 'east', 'east', 'south', 'dropoff']
+
+apply informat algorithms with simple_h
+
+Greedy best-first search
+0.934569120407
+285
+9
+['east', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'east', 'east', 'north', 'north', 'north', 'pickup', 'east', 'north', 'dropoff']
+
+A* search
+18.3638141155
+539
+29
+['pickup', 'east', 'east', 'east', 'north', 'north', 'north', 'dropoff', 'west', 'west']
+
+Hill-climbing search
+0.909098148346
+21
+0
+['north', 'north', 'north', 'north', 'north', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'south']
+
+apply informat algorithms with h
+
+Greedy best-first search
+6.44076395035
+360
+28
+['pickup', 'east', 'east', 'west', 'north', 'north', 'north', 'east', 'east', 'dropoff', 'west']
+
+A* search
+45.0057890415
+1545
+29
+['pickup', 'east', 'east', 'north', 'north', 'east', 'north', 'dropoff', 'west', 'west']
+
+Hill-climbing search
+0.386314153671
+6
+16
+['north', 'south', 'pickup', 'north', 'east']
+
+for input: test5.in
+apply blind algorithms
+
+Uniform cost search
+17.2181890011
+2730
+60
+['pickup', 'north', 'north', 'east', 'north', 'east', 'east', 'dropoff', 'pickup', 'east', 'north', 'dropoff', 'pickup', 'south', 'west', 'south', 'dropoff', 'south', 'east', 'west']
+
+Depth-first searh
+0.0866260528564
+145
+8
+['east', 'north', 'north', 'west', 'east', 'north', 'south', 'south', 'south', 'east', 'west', 'south', 'west', 'east', 'north', 'north', 'south', 'east', 'north', 'east', 'north', 'north', 'pickup', 'east', 'north', 'dropoff']
+
+Depth-limited searh
+0.0601999759674
+96
+26
+['north', 'north', 'south', 'south', 'pickup', 'west', 'east', 'east', 'west', 'east', 'north', 'south', 'north', 'north', 'north', 'east', 'east', 'dropoff']
+
+Iterative deepening search
+5.64323401451
+802
+29
+['west', 'north', 'north', 'north', 'pickup', 'east', 'east', 'east', 'south', 'dropoff', 'south', 'south', 'south']
+
+apply informat algorithms with simple_h
+
+Greedy best-first search
+0.521489143372
+243
+18
+['south', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'north', 'pickup', 'east', 'east', 'east', 'north', 'north', 'north', 'dropoff']
+
+A* search
+12.8333470821
+464
+60
+['pickup', 'east', 'east', 'east', 'north', 'north', 'north', 'dropoff', 'pickup', 'east', 'north', 'south', 'north', 'dropoff', 'pickup', 'south', 'south', 'west', 'dropoff', 'south']
+
+Hill-climbing search
+0.258456945419
+26
+0
+['north', 'north', 'north', 'north', 'north', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east']
+
+apply informat algorithms with h
+
+Greedy best-first search
+14.7429881096
+1206
+15
+['east', 'east', 'west', 'east', 'north', 'east', 'west', 'east', 'east', 'north', 'north', 'west', 'pickup', 'east', 'north', 'north', 'south', 'dropoff', 'south']
+
+A* search
+7.71348190308
+285
+74
+['pickup', 'north', 'north', 'east', 'north', 'east', 'east', 'dropoff', 'pickup', 'east', 'north', 'dropoff', 'pickup', 'south', 'west', 'south', 'dropoff', 'north', 'west', 'pickup', 'north', 'west', 'dropoff']
+
+Hill-climbing search
+0.579674959183
+26
+0
+['west', 'north', 'north', 'south', 'north', 'south', 'south', 'north', 'north', 'south', 'north', 'south', 'south', 'north', 'north', 'south', 'north', 'south', 'south', 'north', 'south', 'south', 'north', 'south', 'north']
+
+for input: test6.in
+apply blind algorithms
+
+Uniform cost search
+1.32086205482
+599
+43
+['east', 'east', 'south', 'pickup', 'north', 'west', 'south', 'dropoff', 'west']
+
+Depth-first searh
+0.10053396225
+109
+26
+['north', 'north', 'east', 'west', 'south', 'west', 'south', 'north', 'east', 'south', 'north', 'south', 'north', 'south', 'south', 'north', 'east', 'west', 'east', 'east', 'south', 'pickup', 'north', 'west', 'south', 'dropoff']
+
+Depth-limited searh
+0.202538013458
+249
+15
+['east', 'south', 'north', 'east', 'east', 'north', 'west', 'north', 'south', 'west', 'north', 'north', 'north', 'north', 'north', 'pickup', 'east', 'north', 'dropoff']
+
+Iterative deepening search
+1.48940396309
+271
+43
+['east', 'east', 'south', 'pickup', 'north', 'west', 'south', 'dropoff', 'west']
+
+apply informat algorithms with simple_h
+
+Greedy best-first search
+0.515309810638
+167
+26
+['south', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'north', 'east', 'east', 'south', 'pickup', 'north', 'west', 'south', 'dropoff']
+
+A* search
+19.8610370159
+524
+43
+['east', 'east', 'south', 'pickup', 'north', 'west', 'south', 'dropoff', 'west']
+
+Hill-climbing search
+0.926954030991
+26
+0
+['north', 'north', 'north', 'north', 'north', 'east', 'east', 'north', 'north', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south', 'north', 'south']
+
+apply informat algorithms with h
+
+Greedy best-first search
+4.75204896927
+410
+18
+['east', 'east', 'south', 'north', 'north', 'north', 'north', 'west', 'north', 'south', 'north', 'north', 'east', 'west', 'south', 'west', 'north', 'east', 'west', 'north', 'pickup', 'west', 'north', 'dropoff']
+
+A* search
+6.75585412979
+466
+43
+['east', 'east', 'south', 'pickup', 'north', 'west', 'south', 'dropoff', 'west']
+
+Hill-climbing search
+0.272544145584
+26
+0
+['south', 'north', 'south', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'east', 'west', 'north', 'north', 'north', 'east', 'west', 'east']
+
